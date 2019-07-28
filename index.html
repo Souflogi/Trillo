@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+  <title>trillo &mdash; Your all-in-one booking app</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="img/logo.png" alt="" class="logo" />
+      <form action="#" class="search">
+        <input type="text" placeholder="Search Hotels" name="" id="" class="search__input" />
+        <button class="search__button">
+          <svg class="search__icon">
+            <use xlink:href="img/sprite.svg#icon-magnifying-glass">
+          </svg>
+        </button>
+      </form>
+
+      <nav class="user-nav">
+
+        <div class="user-nav__icon-box">
+          <svg class="user-nav__icon">
+            <use xlink:href="img/sprite.svg#icon-bookmark">
+          </svg>
+          <span class="user-nav__notification">1</span>
+        </div>
+
+        <div class="user-nav__icon-box">
+          <svg class="user-nav__icon">
+            <use xlink:href="img/sprite.svg#icon-chat">
+          </svg>
+          <span class="user-nav__notification">30</span>
+        </div>
+
+        <div class="user-nav__user">
+          <img src="img/user.jpg" alt="user photo" class="user-nav__user-photo">
+          <span class="user-nav__user-name">Jonas</span>
+        </div>
+
+      </nav>
+    </header>
+
+    <div class="content">
+
+      <nav class="sidebar">
+        <ul class="side-nav">
+          <li class="side-nav__item side-nav__item--active">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-home">
+              </svg>
+              <span>Hotel</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-aircraft">
+              </svg>
+              <span>Flight</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-key">
+              </svg>
+              <span>Car rental</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-map">
+              </svg>
+              <span>Tours</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="legal">
+          &copy; 2019 by soufiane.All rights reserved.
+        </div>
+      </nav>
+
+      <main class="hotel-view">
+        <div class="gallery">
+          <figure>
+            <img src="img/hotel-1.jpg" alt="photo hotel 1" class="gallery__photo">
+          </figure>
+          <figure>
+            <img src="img/hotel-2.jpg" alt="photo hotel 2" class="gallery__photo">
+          </figure>
+          <figure>
+            <img src="img/hotel-3.jpg" alt="photo hotel 3" class="gallery__photo">
+          </figure>
+        </div>
+
+        <div class="overview">
+          <h1 class="overview__heading">
+            Hotel Las Palmas
+          </h1>
+          <div class="overview__stars">
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star" />
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star" />
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star" />
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star" />
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star" />
+            </svg>
+          </div>
+
+          <div class="overview__location">
+            <svg class="overview__icon-location">
+              <use xlink:href="img/sprite.svg#icon-location-pin" />
+            </svg>
+            <button class="btn-inline">
+              Albufeira, Prtugal
+            </button>
+          </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview_rating-count">429 votes</div>
+            </div>
+        </div>
+
+        <div class="detail">
+          <div class="description">
+               <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident dolores quibusdam quasi earum iure dipisicing elit. Sapiente provident dolores quibusdam quasi earum iure quae cum molestias suscipit atque.</p>
+               <p class="paragraph">Lorem, ipsum dolor sit amet consecteturearum iure dipisicing elit. Sapiente provident dolores quibusdam quasi earum iure quae cum molestias suscipit atque.</p>
+
+               <ul class="list">
+                 
+                 <li class="list__item">Close to the beach</li>
+                 <li class="list__item">Breakfast included</li>
+                 <li class="list__item">Free airport shuttle</li>
+                 <li class="list__item">Free wifi in all rooms</li>
+                 <li class="list__item">Air conditioning and heating    </li>
+                 <li class="list__item">Pets Allowed</li>
+                 <li class="list__item">We speak all languages</li>
+                 <li class="list__item">perfect for families</li>
+               </ul>
+               <div class="recommend">
+                 <p class="recommend__count">
+                   Lucy and 3 other friends recommend it!
+                 </p>
+                 <p class="recommend__friends">
+                    <img src="img/user-1.jpg" alt="Friend 1" class="recommend__photo">
+                    <img src="img/user-2.jpg" alt="Friend 1" class="recommend__photo">
+                    <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                    <img src="img/user-4.jpg" alt="Friend 1" class="recommend__photo">
+                 </p>
+               </div>
+              </div>
+
+          <div class="user-reviews">
+            REviews
+          </div>
+        </div>
+        
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
